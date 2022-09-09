@@ -1,1 +1,89 @@
-123
+Online cake shop System
+
+•	Features
+    1.	Both customer and Seller accessible.
+    2.	OTP verification.
+    3.	Select different product options like flavour, size, etc.
+    4.	Wide payment options.
+    5.	Email confirmation.
+    6.	Track your order.
+    7.	App Notification.
+    8.	Call support.
+
+
+For seller
+    1.	Main Page and permissions.
+    2.	Login /Registration page or Forgot Password.
+    3.	Register with app.
+    4.	Detail required for registration : 
+        a.	Seller Name
+        b.	Shop Name
+        c.	Shop Address
+        d.	GST no.
+        e.	Mobile number
+        f.	Mobile number for customer support
+        g.	Email Id
+        h.	Bank account no. for payment method
+        i.	Password
+    5.	OTP verification
+    6.	Video/Audio seller verification
+    7.	After verification login to app
+    8.	Add product and its detail
+        a.	Product name
+        b.	Product image
+        c.	Product price
+        d.	Product description
+        e.	Customizable option
+        f.	Time of delivery
+    9.	Make product Live on app
+    10.	After add of product you can see the statistics of production and profit
+    11.	Order received detail page
+    12.	Catalogue you can do Add, Remove and edit
+    13.	Settings detail
+        a.	Language selection
+        b.	Edit profile
+        c.	Edit personal details
+        d.	Change password
+        e.	Help and support
+        f.	Account logout
+        g.	Account deactivate
+
+
+
+
+
+
+
+
+    For Customer
+    1.	Main page and permissions
+    2.	Login/Registration page or Forgot Password.
+    3.	Register with app
+    4.	Detail required for registration : 
+        a.	Name
+        b.	Email id
+        c.	Address
+        d.	Mobile no.
+        e.	Password
+    5.	OTP verification
+    6.	After registration login with same email id and password
+    7.	Now you can browse the app
+    8.	Search option at home page
+    9.	Below home we will get the product.
+    10.	In product section you can check the product description, price, delivery time
+    11.	You can also add product to cart.
+    12.	In cart you will find the total amount to be paid.
+    13.	At check out you will have to do payment according to the available option
+    14.	After payment the order will be placed
+    15.	You will receive notification of order confirmation via SMS, Email and app notification
+    16.	You can track your order in app
+    17.	You can cancel the order before order is approved by seller
+    18.	After delivery you can give feedback to seller
+    19.	In setting you will find : 
+        a.	Profile option to edit
+        b.	Order history
+        c.	Change password
+        d.	Help and support for app
+        e.	Payment method or saved cards
+        f.	Logout option
+        g.	Account deactivation option
