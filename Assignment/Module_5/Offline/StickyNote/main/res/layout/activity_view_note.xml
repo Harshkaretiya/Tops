@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CACACA"
+    tools:context=".ViewNoteActivity">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/view_task_name"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/round_all"
+            android:backgroundTint="#EAEAEA"
+            android:hint="Text"
+            android:text=""
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/view_task_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="400dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_all"
+            android:backgroundTint="#EAEAEA"
+            android:hint="description"
+            android:text=""
+            android:paddingStart="20dp"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:lines="5"
+            android:gravity="top"
+            android:paddingTop="20dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Save"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#2EFF27"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/delete_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Delete"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#FF2727"
+            />
+
+    </LinearLayout>
+</LinearLayout>
