@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StringXml</string>
+    <string-array name="arraylist">
+        <item>android</item>
+        <item>java</item>
+        <item>kotlin</item>
+        <item>flutter</item>
+    </string-array>
+</resources>
