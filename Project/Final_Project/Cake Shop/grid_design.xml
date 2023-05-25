@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="235dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:outlineSpotShadowColor="@color/white"
+    android:layout_marginRight="15dp"
+    android:background="@color/white"
+    app:cardCornerRadius="15dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                app:cardCornerRadius="16dp"
+                android:backgroundTint="@color/white"
+                android:outlineSpotShadowColor="@color/white"
+                android:outlineAmbientShadowColor="@color/white"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <ImageView
+                        android:id="@+id/product_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:scaleType="centerCrop"
+                        />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="75dp"
+           >
+
+           <TextView
+               android:id="@+id/product_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="7dp"
+               android:layout_marginBottom="5dp"
+               android:layout_marginLeft="10dp"
+               android:ellipsize="end"
+               android:fontFamily="@font/airbnbcereal_bd"
+               android:maxHeight="20dp"
+               android:maxLines="2"
+               android:text="Name of the product"
+               android:textColor="@color/black"
+               android:textSize="16dp" />
+           <TextView
+               android:id="@+id/pricetag"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="₹"
+               android:textColor="@color/black"
+               android:layout_marginLeft="10dp"
+               android:layout_marginBottom="5dp"
+               android:fontFamily="@font/airbnbcereal_md"
+               android:layout_alignParentBottom="true"
+               android:textSize="14dp"
+               />
+           <TextView
+               android:id="@+id/product_price"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="400"
+               android:textColor="@color/black"
+               android:layout_marginBottom="5dp"
+               android:fontFamily="@font/airbnbcereal_md"
+               android:layout_toRightOf="@id/pricetag"
+               android:layout_alignParentBottom="true"
+               android:layout_marginLeft="2dp"
+               android:textSize="14dp"
+               />
+
+           <ImageView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentBottom="true"
+               android:src="@drawable/right_arrow" />
+       </RelativeLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
